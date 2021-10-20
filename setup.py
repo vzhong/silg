@@ -28,6 +28,7 @@ setup(
 
     description='Situated Interative Language Grounding Benchmark.',
     long_description=long_description,
+    long_description_content_type='text/markdown',
 
     # The project's main homepage.
     url='https://github.com/vzhong/silg',
