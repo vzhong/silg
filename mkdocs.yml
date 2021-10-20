@@ -1,0 +1,8 @@
+site_name: SILG
+
+nav:
+  - Home: 'index.md'
+
+theme:
+  name: null
+  custom_dir: 'theme/'
