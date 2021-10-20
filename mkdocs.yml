@@ -1,5 +1,8 @@
 site_name: SILG
 
+docs_dir: 'src/'
+site_dir: 'docs/'
+
 nav:
   - Home: 'index.md'
 
