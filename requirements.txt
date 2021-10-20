@@ -1,0 +1,7 @@
+gym>=0.15.4
+py-getch==1.0.1
+pyyaml
+torch
+torchvision
+expman
+submitit
