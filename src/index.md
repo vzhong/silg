@@ -69,7 +69,7 @@ If you find this work helpful, please considering citing:
 ```
 @inproceedings{ zhong2021silg,
   title={ {SILG}: The Multi-environment Symbolic Interactive Language Grounding Benchmark },
-  author={ Victor Zhong and H. J. Austin Wang and Karthik Narasimhan and Luke Zettlemoyer },
+  author={ Victor Zhong and Austin W. Hanjie and Karthik Narasimhan and Luke Zettlemoyer },
   booktitle={ NeurIPS },
   year={ 2021 }
 }
