@@ -68,7 +68,7 @@ class TWAlfred(SILGEnv):
             'pos': (2, ),  # agent position (y, x)
         }
 
-    def __init__(self, max_objects=40, max_name=6, max_action=60, max_action_tok=10, max_text=40, time_penalty=-0.02, max_steps=120, cache_dir='cache', reward_explore=1e-4, renderer='bert_tokenize'):
+    def __init__(self, max_objects=40, max_name=6, max_action=60, max_action_tok=10, max_text=40, time_penalty=0, max_steps=50, cache_dir='cache', reward_explore=1e-4, renderer='bert_tokenize'):
         # load config
         config_file = os.path.join(ROOT, 'cache', self.CONFIG_FILE)
         assert os.path.exists(config_file), "Invalid config file {}".format(config_file)
@@ -81,7 +81,7 @@ class TWAlfred(SILGEnv):
         env = getattr(environment, env_type)(config, train_eval=self.SPLIT)
         self.alfred_env = env.init_env(batch_size=1)
 
-        self.max_episode_step = config["rl"]["training"]["max_nb_steps_per_episode"]
+        # self.max_episode_step = config["rl"]["training"]["max_nb_steps_per_episode"]
         self.max_objects = max_objects
         self.height, self.width = max_objects, 2
         self.max_name = max_name
