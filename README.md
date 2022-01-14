@@ -1,6 +1,6 @@
 # SILG
 
-This repository contains source code for the Situated Interactive Language Grounding (SILG) benchmark.
+This repository contains source code for the [Situated Interactive Language Grounding (SILG) benchmark](https://arxiv.org/abs/2110.10661).
 If you find this work helpful, please consider citing this work:
 
 ```
