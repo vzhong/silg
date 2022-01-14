@@ -1,7 +1,7 @@
 <section class="hero">
   <div class="hero-body">
     <p class="title">
-      SILG: The Multi-environment Symbolic Interactive Language Grounding Benchmark
+      <a href="https://arxiv.org/abs/2110.10661">SILG: The Multi-environment Symbolic Interactive Language Grounding Benchmark</a>
     </p>
     <p class="subtitle">
       <a href="//victorzhong.com">Victor Zhong</a>,
