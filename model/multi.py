@@ -313,7 +313,7 @@ class Model(nn.Module):
         return dict(policy_logits=policy_logits, baseline=baseline, action=action, aux_loss=aux_loss), core_state
 
     def compute_core(self, inputs, rep, core_state):
-        T, B, *_ = inputs['text'].size()
+        T, B, *_ = inputs['valid'].size()
         assert self.stateful
         core_input = rep.view(T, B, -1)
         core_output_list = []
